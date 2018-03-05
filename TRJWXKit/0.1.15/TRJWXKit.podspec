@@ -136,7 +136,7 @@ Implementation of minimal set of JWT features to support TR Digitial Identity iO
 
    s.requires_arc = true
 
-  s.xcconfig = { "OTHER_LDFLAGS[sdk=iphonesimulator*]" => "$(inherited) -lchilkatIosSim",
+  s.pod_target_xcconfig = { "OTHER_LDFLAGS[sdk=iphonesimulator*]" => "$(inherited) -lchilkatIosSim",
 	         "OTHER_LDFLAGS[sdk=iphoneos*]" => "$(inherited) -lchilkatIosDevice -lresolv",
                  #"LIBRARY_SEARCH_PATHS" => "$(PROJECT_DIR)/TRJWXKit/chilkat-9.5.0-ios9/lib" 
                  "LIBRARY_SEARCH_PATHS" => "$(PROJECT_DIR)/**" 
