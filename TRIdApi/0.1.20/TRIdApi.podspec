@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 SDK for calling Thomson Reuters Digital ID services.
                    DESC
 
-  s.homepage     = "https://github.com/kzim44/TRIdApi"
+  s.homepage     = "https://github.com/TR-Digital-ID/TRIdApi"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -82,7 +82,7 @@ SDK for calling Thomson Reuters Digital ID services.
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "git@github.com:kzim44/TRIdApi.git", :tag => "v#{s.version}" }
+  s.source       = { :git => "git@github.com:TR-Digital-ID/TRIdApi.git", :tag => "v#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
